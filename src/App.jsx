@@ -117,6 +117,8 @@ const ChatRoom = () => {
         connect();
     }
     return (
+        <>
+      <h2 style={{margin:"50px 510px"}}><strong>Dudu-Bubu Chatting Application</strong></h2>  
     <div className="container">
         {userData.connected?
         <div className="chat-box">
@@ -177,6 +179,7 @@ const ChatRoom = () => {
               </button> 
         </div>}
     </div>
+    </>
     )
 }
 
